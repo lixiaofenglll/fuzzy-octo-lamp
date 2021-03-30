@@ -103,9 +103,9 @@
                 return false;
             }
             $.ajax({
-                url:"/getValidateCode",
+                url:"/getCode",
                 data:{"mail":$("#mail").val()},
-                type:"get",
+                type:"post",
                 dataType:"json",
                 success:function(data){
                     if(data.code==0){
