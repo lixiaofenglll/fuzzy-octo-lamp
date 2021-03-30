@@ -19,4 +19,8 @@ public class MainController {
     public String toRegister(){
         return "register";
     }
+    @RequestMapping("/toindex")
+    public String toindex(){
+    return "index";
+    }
 }
